@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    FILE *fin = fopen("input.txt", "r");
+    FILE *fout = fopen("output.txt", "w");
+    int hours = 24, minutes = 60;
+    int a, b, res_min, res_hour;
+    fscanf(fin, "%d%d", &a, &b);
+    if (b == 0){
+        res_hour = hours - a;
+        res_min = 0;
+    }
+    else{
+        res_hour = hours - a - 1;
+        res_min = minutes - b;
+    }
+    fprintf(fout, "%d %d", res_hour, res_min);
+}
