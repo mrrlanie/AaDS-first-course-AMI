@@ -1,17 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 int comp(const void *, const void *);
+
 int main() {
-    FILE*fin=fopen("input.txt","r");
-    FILE*fout=fopen("output.txt","w");
+    FILE*fin = fopen("input.txt","r");
+    FILE*fout = fopen("output.txt","w");
     int N;
-    fscanf(fin,"%i",&N);
+    fscanf(fin, "%i", &N);
     int* A;
-    A=(int*)calloc(N, sizeof(int));
+    A = (int*)calloc(N, sizeof(int));
     for (int k = 0; k < N; ++k){
-        fscanf(fin,"%i",&A[k]);
+        fscanf(fin, "%i", &A[k]);
     }
-    qsort(A,N,sizeof(int),comp);
+    qsort(A, N, sizeof(int), comp);
     for (int i = 0; i < N; i++) {
         if (A[i] == A[i -1]) {
             continue;
@@ -30,6 +32,7 @@ int main() {
     fclose(fout);
     return 0;
 }
+
 int comp(const void *i, const void *j){
     return *(int *) i - *(int *) j;
 }
