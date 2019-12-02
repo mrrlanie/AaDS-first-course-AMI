@@ -6,12 +6,14 @@ practise of algorythm &amp; data`s structure
 
 //TODO
 
-Лабиринт
+ Лабиринт
 
-WK
+ WK
 
-Digitalization
+ Digitalization
 
-Митинг
+ Митинг
 
-Арифметическая прогрессия
+ Арифметическая прогрессия
+
+ Отгадай слово
