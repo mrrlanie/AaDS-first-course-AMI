@@ -1,19 +1,2 @@
 # labs-of-aads
-practise of algorythm &amp; data`s structure
-
-
-Решенные задачи по предмету <<Алгоритмы и структуры данных>>.
-
-//TODO
-
- Лабиринт
-
- WK
-
- Digitalization
-
- Митинг
-
- Арифметическая прогрессия
-
- Отгадай слово
+practise of algorythm &amp; data`s structure (1 course of AMI)
