@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int comp(const void *, const void *);
+int comp (const void *, const void *);
 
 int main() {
-    FILE*fin = fopen("input.txt","r");
-    FILE*fout = fopen("output.txt","w");
+    FILE* fin = fopen("input.txt","r");
+    FILE* fout = fopen("output.txt","w");
     int N;
     fscanf(fin, "%i", &N);
     int* A;
