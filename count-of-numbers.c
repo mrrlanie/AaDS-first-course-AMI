@@ -7,7 +7,7 @@ int main() {
     FILE* fin = fopen("input.txt","r");
     FILE* fout = fopen("output.txt","w");
     int N;
-    //comment for test 2
+    //comment for test 3
     fscanf(fin, "%i", &N);
     int* A;
     A = (int*)calloc(N, sizeof(int));
